@@ -1141,7 +1141,13 @@ nav1 .wrapper{
 	color: inherit;
 }
 .nav1-links .mobile-item{
-  display: none;
+	color: #f2f2f2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 9px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 .nav1-links .drop-menu{
   position: absolute;
@@ -1250,6 +1256,7 @@ nav1 .wrapper{
   .nav1-links .desktop-item{
     display: none;
   }
+
   .nav1-links .mobile-item{
     display: block;
     color: #f2f2f2;
@@ -1261,7 +1268,8 @@ nav1 .wrapper{
     transition: all 0.3s ease;
   }
   .nav1-links .mobile-item:hover{
-    background: #3A3B3C;
+		background-color: transparent;
+		color: inherit;
   }
   .drop-menu li{
     margin: 0;
