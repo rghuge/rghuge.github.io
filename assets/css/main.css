@@ -1309,8 +1309,8 @@ a.button {
 
 @media screen and (max-width: 600px) {
 	a.button {
-		font-family: 'Source Sans Pro', sans-serif;
-		color: #f2f2f2;
+	  font-family: 'Source Sans Pro', sans-serif;
+	  color: #f2f2f2;
 	  text-decoration: none;
 	  font-size: 3vw;
 	  font-weight: 500;
@@ -1322,6 +1322,6 @@ a.button {
 	  margin: 2px 1px;
 	  transition-duration: 0.4s;
 	  cursor: pointer;
-		background-color: transparent;
-		color: inherit;
+	  background-color: transparent;
+	  color: inherit;
 	}
